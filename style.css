@@ -127,10 +127,84 @@ button {
 }
 
 .card img {
-    border-radius: 25%;
-    height: 100px;
-    width: 100px;
+    border-radius: 7%;
+    height: 140px;
+    width: 140px;
     border-style: solid;
     border-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.section2 {
+    height: 20rem;
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 50px 250px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section2 div {
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+}
+
+
+
+.section2 .subtext {
+    align-self: flex-end;
+    justify-self: flex-end;
+    font-size: 24px;
+    font-weight: 200;
+    margin: 10px auto;
+}
+
+.footer {
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sign_up {
+    background-color: #3882F6;
+    height: 50%;
+    width: 70%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.sign_up div {
+    color: #F9FAF8;
+    padding: 0px 40px;
+    padding: 0px 130px;
+
+}
+
+.sign_up .call {
+    font-size: 20px;
+}
+
+.sign_up p {
+    margin: 3px;
+}
+
+.sign_up div button {
+    border-style: solid;
+}
+
+footer {
+    height: 5rem;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
 }
