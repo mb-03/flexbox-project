@@ -126,6 +126,12 @@ button {
     flex-wrap: wrap;
 }
 
+.card p {
+    width: 140px;
+    text-align: center;
+    
+}
+
 .card img {
     border-radius: 7%;
     height: 140px;
